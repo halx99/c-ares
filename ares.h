@@ -19,8 +19,6 @@
 #define ARES__H
 
 #include <sys/types.h>
-#include <sys/socket.h>
-#include <netdb.h>
 
 #include "ares_version.h"  /* c-ares version defines   */
 #include "ares_build.h"    /* c-ares build definitions */

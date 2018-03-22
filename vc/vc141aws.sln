@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cares", "cares\vc141cares.vcxproj", "{167D0C85-73A2-4413-A777-AE303A1C9CAF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "acountry", "acountry\vc141acountry.vcxproj", "{F7C3DDA6-EEFA-4FA4-B243-55BE96AA661B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "adig", "adig\vc141adig.vcxproj", "{91797D4B-50BB-4463-A507-AE6ABDBEA3A8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ahost", "ahost\vc141ahost.vcxproj", "{86B03D4F-2276-4FC5-89EA-3349316F8F93}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		DLL Debug|x86 = DLL Debug|x86
+		DLL Release|x86 = DLL Release|x86
+		LIB Debug|x86 = LIB Debug|x86
+		LIB Release|x86 = LIB Release|x86
+		Template|x86 = Template|x86
+		using cares DLL Debug|x86 = using cares DLL Debug|x86
+		using cares DLL Release|x86 = using cares DLL Release|x86
+		using cares LIB Debug|x86 = using cares LIB Debug|x86
+		using cares LIB Release|x86 = using cares LIB Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{167D0C85-73A2-4413-A777-AE303A1C9CAF}.DLL Debug|x86.ActiveCfg = DLL Debug|Win32
+		{167D0C85-73A2-4413-A777-AE303A1C9CAF}.DLL Debug|x86.Build.0 = DLL Debug|Win32
+		{167D0C85-73A2-4413-A777-AE303A1C9CAF}.DLL Release|x86.ActiveCfg = DLL Release|Win32
+		{167D0C85-73A2-4413-A777-AE303A1C9CAF}.DLL Release|x86.Build.0 = DLL Release|Win32
+		{167D0C85-73A2-4413-A777-AE303A1C9CAF}.LIB Debug|x86.ActiveCfg = LIB Debug|Win32
+		{167D0C85-73A2-4413-A777-AE303A1C9CAF}.LIB Debug|x86.Build.0 = LIB Debug|Win32
+		{167D0C85-73A2-4413-A777-AE303A1C9CAF}.LIB Release|x86.ActiveCfg = LIB Release|Win32
+		{167D0C85-73A2-4413-A777-AE303A1C9CAF}.LIB Release|x86.Build.0 = LIB Release|Win32
+		{167D0C85-73A2-4413-A777-AE303A1C9CAF}.Template|x86.ActiveCfg = LIB Release|Win32
+		{167D0C85-73A2-4413-A777-AE303A1C9CAF}.Template|x86.Build.0 = LIB Release|Win32
+		{167D0C85-73A2-4413-A777-AE303A1C9CAF}.using cares DLL Debug|x86.ActiveCfg = DLL Debug|Win32
+		{167D0C85-73A2-4413-A777-AE303A1C9CAF}.using cares DLL Debug|x86.Build.0 = DLL Debug|Win32
+		{167D0C85-73A2-4413-A777-AE303A1C9CAF}.using cares DLL Release|x86.ActiveCfg = DLL Release|Win32
+		{167D0C85-73A2-4413-A777-AE303A1C9CAF}.using cares DLL Release|x86.Build.0 = DLL Release|Win32
+		{167D0C85-73A2-4413-A777-AE303A1C9CAF}.using cares LIB Debug|x86.ActiveCfg = LIB Debug|Win32
+		{167D0C85-73A2-4413-A777-AE303A1C9CAF}.using cares LIB Debug|x86.Build.0 = LIB Debug|Win32
+		{167D0C85-73A2-4413-A777-AE303A1C9CAF}.using cares LIB Release|x86.ActiveCfg = LIB Release|Win32
+		{167D0C85-73A2-4413-A777-AE303A1C9CAF}.using cares LIB Release|x86.Build.0 = LIB Release|Win32
+		{F7C3DDA6-EEFA-4FA4-B243-55BE96AA661B}.DLL Debug|x86.ActiveCfg = using cares DLL Debug|Win32
+		{F7C3DDA6-EEFA-4FA4-B243-55BE96AA661B}.DLL Debug|x86.Build.0 = using cares DLL Debug|Win32
+		{F7C3DDA6-EEFA-4FA4-B243-55BE96AA661B}.DLL Release|x86.ActiveCfg = using cares DLL Release|Win32
+		{F7C3DDA6-EEFA-4FA4-B243-55BE96AA661B}.DLL Release|x86.Build.0 = using cares DLL Release|Win32
+		{F7C3DDA6-EEFA-4FA4-B243-55BE96AA661B}.LIB Debug|x86.ActiveCfg = using cares LIB Debug|Win32
+		{F7C3DDA6-EEFA-4FA4-B243-55BE96AA661B}.LIB Debug|x86.Build.0 = using cares LIB Debug|Win32
+		{F7C3DDA6-EEFA-4FA4-B243-55BE96AA661B}.LIB Release|x86.ActiveCfg = using cares LIB Release|Win32
+		{F7C3DDA6-EEFA-4FA4-B243-55BE96AA661B}.LIB Release|x86.Build.0 = using cares LIB Release|Win32
+		{F7C3DDA6-EEFA-4FA4-B243-55BE96AA661B}.Template|x86.ActiveCfg = Template|Win32
+		{F7C3DDA6-EEFA-4FA4-B243-55BE96AA661B}.Template|x86.Build.0 = Template|Win32
+		{F7C3DDA6-EEFA-4FA4-B243-55BE96AA661B}.using cares DLL Debug|x86.ActiveCfg = using cares DLL Debug|Win32
+		{F7C3DDA6-EEFA-4FA4-B243-55BE96AA661B}.using cares DLL Debug|x86.Build.0 = using cares DLL Debug|Win32
+		{F7C3DDA6-EEFA-4FA4-B243-55BE96AA661B}.using cares DLL Release|x86.ActiveCfg = using cares DLL Release|Win32
+		{F7C3DDA6-EEFA-4FA4-B243-55BE96AA661B}.using cares DLL Release|x86.Build.0 = using cares DLL Release|Win32
+		{F7C3DDA6-EEFA-4FA4-B243-55BE96AA661B}.using cares LIB Debug|x86.ActiveCfg = using cares LIB Debug|Win32
+		{F7C3DDA6-EEFA-4FA4-B243-55BE96AA661B}.using cares LIB Debug|x86.Build.0 = using cares LIB Debug|Win32
+		{F7C3DDA6-EEFA-4FA4-B243-55BE96AA661B}.using cares LIB Release|x86.ActiveCfg = using cares LIB Release|Win32
+		{F7C3DDA6-EEFA-4FA4-B243-55BE96AA661B}.using cares LIB Release|x86.Build.0 = using cares LIB Release|Win32
+		{91797D4B-50BB-4463-A507-AE6ABDBEA3A8}.DLL Debug|x86.ActiveCfg = using cares DLL Debug|Win32
+		{91797D4B-50BB-4463-A507-AE6ABDBEA3A8}.DLL Debug|x86.Build.0 = using cares DLL Debug|Win32
+		{91797D4B-50BB-4463-A507-AE6ABDBEA3A8}.DLL Release|x86.ActiveCfg = using cares DLL Release|Win32
+		{91797D4B-50BB-4463-A507-AE6ABDBEA3A8}.DLL Release|x86.Build.0 = using cares DLL Release|Win32
+		{91797D4B-50BB-4463-A507-AE6ABDBEA3A8}.LIB Debug|x86.ActiveCfg = using cares LIB Debug|Win32
+		{91797D4B-50BB-4463-A507-AE6ABDBEA3A8}.LIB Debug|x86.Build.0 = using cares LIB Debug|Win32
+		{91797D4B-50BB-4463-A507-AE6ABDBEA3A8}.LIB Release|x86.ActiveCfg = using cares LIB Release|Win32
+		{91797D4B-50BB-4463-A507-AE6ABDBEA3A8}.LIB Release|x86.Build.0 = using cares LIB Release|Win32
+		{91797D4B-50BB-4463-A507-AE6ABDBEA3A8}.Template|x86.ActiveCfg = Template|Win32
+		{91797D4B-50BB-4463-A507-AE6ABDBEA3A8}.Template|x86.Build.0 = Template|Win32
+		{91797D4B-50BB-4463-A507-AE6ABDBEA3A8}.using cares DLL Debug|x86.ActiveCfg = using cares DLL Debug|Win32
+		{91797D4B-50BB-4463-A507-AE6ABDBEA3A8}.using cares DLL Debug|x86.Build.0 = using cares DLL Debug|Win32
+		{91797D4B-50BB-4463-A507-AE6ABDBEA3A8}.using cares DLL Release|x86.ActiveCfg = using cares DLL Release|Win32
+		{91797D4B-50BB-4463-A507-AE6ABDBEA3A8}.using cares DLL Release|x86.Build.0 = using cares DLL Release|Win32
+		{91797D4B-50BB-4463-A507-AE6ABDBEA3A8}.using cares LIB Debug|x86.ActiveCfg = using cares LIB Debug|Win32
+		{91797D4B-50BB-4463-A507-AE6ABDBEA3A8}.using cares LIB Debug|x86.Build.0 = using cares LIB Debug|Win32
+		{91797D4B-50BB-4463-A507-AE6ABDBEA3A8}.using cares LIB Release|x86.ActiveCfg = using cares LIB Release|Win32
+		{91797D4B-50BB-4463-A507-AE6ABDBEA3A8}.using cares LIB Release|x86.Build.0 = using cares LIB Release|Win32
+		{86B03D4F-2276-4FC5-89EA-3349316F8F93}.DLL Debug|x86.ActiveCfg = using cares DLL Debug|Win32
+		{86B03D4F-2276-4FC5-89EA-3349316F8F93}.DLL Debug|x86.Build.0 = using cares DLL Debug|Win32
+		{86B03D4F-2276-4FC5-89EA-3349316F8F93}.DLL Release|x86.ActiveCfg = using cares DLL Release|Win32
+		{86B03D4F-2276-4FC5-89EA-3349316F8F93}.DLL Release|x86.Build.0 = using cares DLL Release|Win32
+		{86B03D4F-2276-4FC5-89EA-3349316F8F93}.LIB Debug|x86.ActiveCfg = using cares LIB Debug|Win32
+		{86B03D4F-2276-4FC5-89EA-3349316F8F93}.LIB Debug|x86.Build.0 = using cares LIB Debug|Win32
+		{86B03D4F-2276-4FC5-89EA-3349316F8F93}.LIB Release|x86.ActiveCfg = using cares LIB Release|Win32
+		{86B03D4F-2276-4FC5-89EA-3349316F8F93}.LIB Release|x86.Build.0 = using cares LIB Release|Win32
+		{86B03D4F-2276-4FC5-89EA-3349316F8F93}.Template|x86.ActiveCfg = Template|Win32
+		{86B03D4F-2276-4FC5-89EA-3349316F8F93}.Template|x86.Build.0 = Template|Win32
+		{86B03D4F-2276-4FC5-89EA-3349316F8F93}.using cares DLL Debug|x86.ActiveCfg = using cares DLL Debug|Win32
+		{86B03D4F-2276-4FC5-89EA-3349316F8F93}.using cares DLL Debug|x86.Build.0 = using cares DLL Debug|Win32
+		{86B03D4F-2276-4FC5-89EA-3349316F8F93}.using cares DLL Release|x86.ActiveCfg = using cares DLL Release|Win32
+		{86B03D4F-2276-4FC5-89EA-3349316F8F93}.using cares DLL Release|x86.Build.0 = using cares DLL Release|Win32
+		{86B03D4F-2276-4FC5-89EA-3349316F8F93}.using cares LIB Debug|x86.ActiveCfg = using cares LIB Debug|Win32
+		{86B03D4F-2276-4FC5-89EA-3349316F8F93}.using cares LIB Debug|x86.Build.0 = using cares LIB Debug|Win32
+		{86B03D4F-2276-4FC5-89EA-3349316F8F93}.using cares LIB Release|x86.ActiveCfg = using cares LIB Release|Win32
+		{86B03D4F-2276-4FC5-89EA-3349316F8F93}.using cares LIB Release|x86.Build.0 = using cares LIB Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F853A8B8-C555-479E-BE6B-22829EFE22B5}
+	EndGlobalSection
+EndGlobal

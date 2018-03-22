@@ -242,16 +242,22 @@ static void add_to_addrinfo(struct addrinfo** ai, const struct hostent* host) {
     else
       *ai = next_ai;
     if (host->h_addrtype == AF_INET) {
-      next_ai->ai_protocol = IPPROTO_UDP;
+      next_ai->ai_protocol = 0;
       next_ai->ai_family = AF_INET;
+
+      next_ai->ai_addrlen = sizeof(struct sockaddr_in);
       next_ai->ai_addr = ares_malloc(sizeof(struct sockaddr_in));
+      next_ai->ai_addr->sa_family = AF_INET;
       memcpy(&((struct sockaddr_in*)(next_ai->ai_addr))->sin_addr,
         *p, host->h_length);
     }
     else {
-      next_ai->ai_protocol = IPPROTO_UDP;
+      next_ai->ai_protocol = 0;
       next_ai->ai_family = AF_INET6;
+
+      next_ai->ai_addrlen = sizeof(struct sockaddr_in6);
       next_ai->ai_addr = ares_malloc(sizeof(struct sockaddr_in6));
+      next_ai->ai_addr->sa_family = AF_INET6;
       memcpy(&((struct sockaddr_in6*)(next_ai->ai_addr))->sin6_addr,
         *p, host->h_length);
     }
