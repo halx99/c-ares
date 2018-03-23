@@ -297,9 +297,9 @@ static void next_dns_lookup(struct host_query *hquery) {
 }
 
 static void end_hquery(struct host_query *hquery, int status) {
-  if (hquery->ai) {
-    hquery->callback(hquery->arg, status, hquery->ai);
-  }
+  
+  hquery->callback(hquery->arg, status, hquery->ai);
+  
   ares_free(hquery->name);
   ares_free(hquery);
 }
@@ -339,8 +339,11 @@ static void host_callback(void *arg, int status, int timeouts,
       end_hquery(hquery, status);
     }
   }
-  else
-    next_dns_lookup(hquery);
+  else if (status == ARES_ECANCELLED) {
+      assert(!hquery->ai);
+      end_hquery(hquery, status);
+  }
+  else next_dns_lookup(hquery);
 }
 
 static void sort_addresses(struct hostent *host,
