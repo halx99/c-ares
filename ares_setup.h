@@ -80,7 +80,11 @@
  * and might also include required system header files to define them.
  */
 
+#if !defined(_WIN32)
 #include <ares_build.h>
+#else
+#include <build-win32.h>
+#endif
 
 /*
  * Compile time sanity checks must also be done when building the library.
@@ -179,8 +183,13 @@
  * Android does have the arpa/nameser.h header which is detected by configure
  * but it appears to be empty with recent NDK r7b / r7c, so we undefine here.
  */
-#if (defined(ANDROID) || defined(__ANDROID__)) && defined(HAVE_ARPA_NAMESER_H)
+#if (defined(ANDROID) || defined(__ANDROID__))
+#if defined(HAVE_ARPA_NAMESER_H)
 #  undef HAVE_ARPA_NAMESER_H
+#endif
+#if defined(HAVE_ARPA_NAMESER_COMPAT_H)
+#  undef HAVE_ARPA_NAMESER_COMPAT_H
+#endif
 #endif
 
 /*

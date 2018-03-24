@@ -21,7 +21,11 @@
 #include <sys/types.h>
 
 #include "ares_version.h"  /* c-ares version defines   */
-#include "ares_build.h"    /* c-ares build definitions */
+#if !defined(_WIN32)
+#  include "ares_build.h"    /* c-ares build definitions */
+#else
+#  include "build-win32.h"
+#endif
 #include "ares_rules.h"    /* c-ares rules enforcement */
 
 /*
@@ -277,6 +281,7 @@ struct ares_options {
 struct hostent;
 struct timeval;
 struct sockaddr;
+struct addrinfo;
 struct ares_channeldata;
 
 typedef struct ares_channeldata *ares_channel;
