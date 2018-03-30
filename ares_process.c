@@ -128,7 +128,7 @@ static void processfds(ares_channel channel,
   write_tcp_data(channel, write_fds, write_fd, &now);
   read_tcp_data(channel, read_fds, read_fd, &now);
   read_udp_packets(channel, read_fds, read_fd, &now);
-  // process_timeouts(channel, &now); // Let event-loop process timeout
+  process_timeouts(channel, &now);
   process_broken_connections(channel, &now);
 }
 
